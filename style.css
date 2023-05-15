@@ -296,7 +296,7 @@ section {
   left: 0;
   height: 100%;
   width: 100%;
-  background: #1a1a1a;
+  background: #f6b2b2;
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -317,87 +317,26 @@ section {
   text-transform: uppercase;
 }
 .portfolio .box-container .box .content p {
-  color: #aaa;
-  line-height: 2;
+  color: #393535;
+  line-height: 1.5;
   font-size: 1.5rem;
   padding: 1rem 0;
+  justify-content: center;
 }
 
 .portfolio .box-container .box .content a {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: crimson;
 }
 .portfolio .box-container .box .content a:hover {
   color: #fff;
 }
 
-.blogs .box-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr));
-  gap: 1.5rem;
-}
-.blogs .box-container .box {
-  text-align: center;
-  padding: 2rem;
-  border-radius: 0.5rem;
-  background: #1a1a1a;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
-}
-
-.blogs .box-container .box .image {
-  height: 25rem;
-  width: 100%;
-  border-radius: 0.5rem;
-  overflow: hidden;
-}
-
-.blogs .box-container .box .image img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  transition: 0.2s linear;
-}
-
-.blogs .box-container .box:hover .image img {
-  transform: scale(1.2);
-}
-
-.blogs .box-container .box .content .icons {
-  position: relative;
-  top: -1rem;
-  border-radius: 0.5rem;
-  padding: 1.5rem;
-  background: #000;
-  display: inline-block;
-}
-
-.blogs .box-container .box .content .icons a {
-  font-size: 1.4rem;
-  margin: 0 1rem;
-  color: #fff;
-}
-
-.blogs .box-container .box .content .icons a:hover {
-  color: crimson;
-}
-
-.blogs .box-container .box .content .icons a i {
-  padding-right: 0.5rem;
-  color: crimson;
-}
-
-.blogs .box-container .box .content h3 {
-  font-size: 2rem;
-  color: #fff;
-  font-weight: normal;
-}
-
-.blogs .box-container .box .content p {
+#jouer {
   font-size: 1.5rem;
-  line-height: 2;
-  padding: 1rem 0;
-  color: #aaa;
+  color: crimson;
 }
+
 .contact .row {
   display: flex;
   align-items: center;
